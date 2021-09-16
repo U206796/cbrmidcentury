@@ -1,6 +1,6 @@
 # WordPress MySQL database migration
 #
-# Generated: Monday 13. September 2021 02:23 UTC
+# Generated: Thursday 16. September 2021 09:20 UTC
 # Hostname: localhost
 # Database: `midcenturycanberra`
 # URL: http://localhost:8888/cbrmidcentury/wordpress
@@ -158,7 +158,7 @@ CREATE TABLE `wp_options` (
   PRIMARY KEY (`option_id`),
   UNIQUE KEY `option_name` (`option_name`),
   KEY `autoload` (`autoload`)
-) ENGINE=InnoDB AUTO_INCREMENT=221 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=241 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 
 #
@@ -269,7 +269,7 @@ INSERT INTO `wp_options` ( `option_id`, `option_name`, `option_value`, `autoload
 (101, 'fresh_site', '0', 'yes'),
 (102, 'widget_block', 'a:6:{i:2;a:1:{s:7:"content";s:19:"<!-- wp:search /-->";}i:3;a:1:{s:7:"content";s:154:"<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>Recent Posts</h2><!-- /wp:heading --><!-- wp:latest-posts /--></div><!-- /wp:group -->";}i:4;a:1:{s:7:"content";s:227:"<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>Recent Comments</h2><!-- /wp:heading --><!-- wp:latest-comments {"displayAvatar":false,"displayDate":false,"displayExcerpt":false} /--></div><!-- /wp:group -->";}i:5;a:1:{s:7:"content";s:146:"<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>Archives</h2><!-- /wp:heading --><!-- wp:archives /--></div><!-- /wp:group -->";}i:6;a:1:{s:7:"content";s:150:"<!-- wp:group --><div class="wp-block-group"><!-- wp:heading --><h2>Categories</h2><!-- /wp:heading --><!-- wp:categories /--></div><!-- /wp:group -->";}s:12:"_multiwidget";i:1;}', 'yes'),
 (103, 'sidebars_widgets', 'a:4:{s:19:"wp_inactive_widgets";a:0:{}s:9:"sidebar-1";a:3:{i:0;s:7:"block-2";i:1;s:7:"block-3";i:2;s:7:"block-4";}s:9:"sidebar-2";a:2:{i:0;s:7:"block-5";i:1;s:7:"block-6";}s:13:"array_version";i:3;}', 'yes'),
-(104, 'cron', 'a:6:{i:1631501674;a:1:{s:34:"wp_privacy_delete_old_export_files";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:6:"hourly";s:4:"args";a:0:{}s:8:"interval";i:3600;}}}i:1631534074;a:4:{s:18:"wp_https_detection";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1631577274;a:2:{s:30:"wp_site_health_scheduled_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:6:"weekly";s:4:"args";a:0:{}s:8:"interval";i:604800;}}s:32:"recovery_mode_clean_expired_keys";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1631577289;a:2:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}s:25:"delete_expired_transients";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1631577291;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}s:7:"version";i:2;}', 'yes'),
+(104, 'cron', 'a:7:{i:1631786074;a:1:{s:34:"wp_privacy_delete_old_export_files";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:6:"hourly";s:4:"args";a:0:{}s:8:"interval";i:3600;}}}i:1631793274;a:4:{s:18:"wp_https_detection";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_version_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:17:"wp_update_plugins";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}s:16:"wp_update_themes";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:10:"twicedaily";s:4:"args";a:0:{}s:8:"interval";i:43200;}}}i:1631836474;a:1:{s:32:"recovery_mode_clean_expired_keys";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1631836489;a:2:{s:19:"wp_scheduled_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}s:25:"delete_expired_transients";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1631836491;a:1:{s:30:"wp_scheduled_auto_draft_delete";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:5:"daily";s:4:"args";a:0:{}s:8:"interval";i:86400;}}}i:1632182074;a:1:{s:30:"wp_site_health_scheduled_check";a:1:{s:32:"40cd750bba9870f18aada2478b24840a";a:3:{s:8:"schedule";s:6:"weekly";s:4:"args";a:0:{}s:8:"interval";i:604800;}}}s:7:"version";i:2;}', 'yes'),
 (105, 'widget_pages', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (106, 'widget_calendar', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
 (107, 'widget_archives', 'a:1:{s:12:"_multiwidget";i:1;}', 'yes'),
@@ -288,7 +288,7 @@ INSERT INTO `wp_options` ( `option_id`, `option_name`, `option_value`, `autoload
 (132, 'can_compress_scripts', '1', 'no'),
 (149, 'finished_updating_comment_type', '1', 'yes'),
 (155, 'recently_activated', 'a:0:{}', 'yes'),
-(166, 'wpmdb_usage', 'a:2:{s:6:"action";s:8:"savefile";s:4:"time";i:1631499793;}', 'no') ;
+(166, 'wpmdb_usage', 'a:2:{s:6:"action";s:8:"savefile";s:4:"time";i:1631784008;}', 'no') ;
 
 #
 # End of data contents of table `wp_options`
@@ -315,7 +315,7 @@ CREATE TABLE `wp_postmeta` (
   PRIMARY KEY (`meta_id`),
   KEY `post_id` (`post_id`),
   KEY `meta_key` (`meta_key`(191))
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 
 #
@@ -325,7 +325,8 @@ INSERT INTO `wp_postmeta` ( `meta_id`, `post_id`, `meta_key`, `meta_value`) VALU
 (1, 2, '_wp_page_template', 'default'),
 (2, 3, '_wp_page_template', 'default'),
 (3, 5, '_edit_lock', '1631499511:1'),
-(4, 6, '_edit_lock', '1631499746:1') ;
+(4, 6, '_edit_lock', '1631499746:1'),
+(7, 8, '_edit_lock', '1631501078:1') ;
 
 #
 # End of data contents of table `wp_postmeta`
@@ -373,7 +374,7 @@ CREATE TABLE `wp_posts` (
   KEY `type_status_date` (`post_type`,`post_status`,`post_date`,`ID`),
   KEY `post_parent` (`post_parent`),
   KEY `post_author` (`post_author`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
 
 
 #
@@ -386,7 +387,9 @@ INSERT INTO `wp_posts` ( `ID`, `post_author`, `post_date`, `post_date_gmt`, `pos
 (4, 1, '2021-09-12 23:54:51', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2021-09-12 23:54:51', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/cbrmidcentury/wordpress/?p=4', 0, 'post', '', 0),
 (5, 1, '2021-09-13 02:20:19', '0000-00-00 00:00:00', '', 'Auto Draft', '', 'auto-draft', 'open', 'open', '', '', '', '', '2021-09-13 02:20:19', '0000-00-00 00:00:00', '', 0, 'http://localhost:8888/cbrmidcentury/wordpress/?p=5', 0, 'post', '', 0),
 (6, 1, '2021-09-13 02:22:37', '2021-09-13 02:22:37', '<!-- wp:paragraph -->\n<p>Thois is some test for a post to see if we can all work together to create a database that has information on it that matches other information who knows what is happening. Text.</p>\n<!-- /wp:paragraph -->', 'Claire - Test this is', '', 'publish', 'open', 'open', '', 'claire-test-this-is', '', '', '2021-09-13 02:22:37', '2021-09-13 02:22:37', '', 0, 'http://localhost:8888/cbrmidcentury/wordpress/?p=6', 0, 'post', '', 0),
-(7, 1, '2021-09-13 02:22:34', '2021-09-13 02:22:34', '<!-- wp:paragraph -->\n<p>Thois is some test for a post to see if we can all work together to create a database that has information on it that matches other information who knows what is happening. Text.</p>\n<!-- /wp:paragraph -->', 'Claire - Test this is', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-09-13 02:22:34', '2021-09-13 02:22:34', '', 6, 'http://localhost:8888/cbrmidcentury/wordpress/?p=7', 0, 'revision', '', 0) ;
+(7, 1, '2021-09-13 02:22:34', '2021-09-13 02:22:34', '<!-- wp:paragraph -->\n<p>Thois is some test for a post to see if we can all work together to create a database that has information on it that matches other information who knows what is happening. Text.</p>\n<!-- /wp:paragraph -->', 'Claire - Test this is', '', 'inherit', 'closed', 'closed', '', '6-revision-v1', '', '', '2021-09-13 02:22:34', '2021-09-13 02:22:34', '', 6, 'http://localhost:8888/cbrmidcentury/wordpress/?p=7', 0, 'revision', '', 0),
+(8, 1, '2021-09-13 02:42:19', '2021-09-13 02:42:19', '<!-- wp:paragraph -->\n<p>This is some text about a thing.</p>\n<!-- /wp:paragraph -->', 'Claire 2 Test', '', 'publish', 'open', 'open', '', 'claire-2-test', '', '', '2021-09-13 02:42:19', '2021-09-13 02:42:19', '', 0, 'http://localhost:8888/cbrmidcentury/wordpress/?p=8', 0, 'post', '', 0),
+(9, 1, '2021-09-13 02:42:17', '2021-09-13 02:42:17', '<!-- wp:paragraph -->\n<p>This is some text about a thing.</p>\n<!-- /wp:paragraph -->', 'Claire 2 Test', '', 'inherit', 'closed', 'closed', '', '8-revision-v1', '', '', '2021-09-13 02:42:17', '2021-09-13 02:42:17', '', 8, 'http://localhost:8888/cbrmidcentury/wordpress/?p=9', 0, 'revision', '', 0) ;
 
 #
 # End of data contents of table `wp_posts`
@@ -419,7 +422,8 @@ CREATE TABLE `wp_term_relationships` (
 #
 INSERT INTO `wp_term_relationships` ( `object_id`, `term_taxonomy_id`, `term_order`) VALUES
 (1, 1, 0),
-(6, 1, 0) ;
+(6, 1, 0),
+(8, 1, 0) ;
 
 #
 # End of data contents of table `wp_term_relationships`
@@ -455,7 +459,7 @@ CREATE TABLE `wp_term_taxonomy` (
 # Data contents of table `wp_term_taxonomy`
 #
 INSERT INTO `wp_term_taxonomy` ( `term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`) VALUES
-(1, 1, 'category', '', 0, 2) ;
+(1, 1, 'category', '', 0, 3) ;
 
 #
 # End of data contents of table `wp_term_taxonomy`
@@ -570,7 +574,7 @@ INSERT INTO `wp_usermeta` ( `umeta_id`, `user_id`, `meta_key`, `meta_value`) VAL
 (13, 1, 'wp_user_level', '10'),
 (14, 1, 'dismissed_wp_pointers', ''),
 (15, 1, 'show_welcome_panel', '1'),
-(16, 1, 'session_tokens', 'a:2:{s:64:"835c4410e33d3f659862fdc8f05083c5fa41f3fc8589a24c5624372a79bad0df";a:4:{s:10:"expiration";i:1632700489;s:2:"ip";s:3:"::1";s:2:"ua";s:121:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36";s:5:"login";i:1631490889;}s:64:"6ef07b754bf678f0db2278e9b3700f640061d972cc8080be09388e44e28735d9";a:4:{s:10:"expiration";i:1631671131;s:2:"ip";s:3:"::1";s:2:"ua";s:120:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36";s:5:"login";i:1631498331;}}'),
+(16, 1, 'session_tokens', 'a:2:{s:64:"835c4410e33d3f659862fdc8f05083c5fa41f3fc8589a24c5624372a79bad0df";a:4:{s:10:"expiration";i:1632700489;s:2:"ip";s:3:"::1";s:2:"ua";s:121:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36";s:5:"login";i:1631490889;}s:64:"987316ed7ee91c974ddf98cfaa8b0876152f65998105f3e8774eb4e6d3572e87";a:4:{s:10:"expiration";i:1631956722;s:2:"ip";s:3:"::1";s:2:"ua";s:120:"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36";s:5:"login";i:1631783922;}}'),
 (17, 1, 'wp_dashboard_quick_press_last_post_id', '4') ;
 
 #
