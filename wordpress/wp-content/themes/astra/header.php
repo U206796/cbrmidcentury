@@ -1,4 +1,5 @@
 <?php
+
 /**
  * The header for Astra Theme.
  *
@@ -10,9 +11,11 @@
  * @since 1.0.0
  */
 
+
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
 
 ?><!DOCTYPE html>
 <?php astra_html_before(); ?>
@@ -40,6 +43,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		)
 	);
 	?>
+	
 >
 	<a class="skip-link screen-reader-text" href="#content"><?php echo esc_html( astra_default_strings( 'string-header-skip-link', false ) ); ?></a>
 	<?php 
@@ -54,3 +58,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div id="content" class="site-content">
 		<div class="ast-container">
 		<?php astra_content_top(); ?>
+		

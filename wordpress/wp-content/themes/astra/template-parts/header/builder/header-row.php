@@ -98,4 +98,6 @@ if ( Astra_Builder_Helper::is_row_empty( $row, 'header', 'desktop' ) ) {
 			</div>
 			</div>
 	<?php
+	
 }
+
