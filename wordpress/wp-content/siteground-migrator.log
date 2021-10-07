@@ -1,0 +1,8 @@
+[05-Oct-2021 11:11:31 UTC] INFO: Transfer started. Creating archives of files... 
+[05-Oct-2021 11:11:31 UTC] INFO: Updating transfer id. 
+[05-Oct-2021 11:11:31 UTC] INFO: Updating transfer psk. 
+[05-Oct-2021 11:11:31 UTC] INFO: cURL error 60: SSL certificate problem: certificate has expired 
+[05-Oct-2021 11:11:55 UTC] INFO: Transfer started. Creating archives of files... 
+[05-Oct-2021 11:11:55 UTC] INFO: Updating transfer id. 
+[05-Oct-2021 11:11:55 UTC] INFO: Updating transfer psk. 
+[05-Oct-2021 11:11:56 UTC] INFO: cURL error 60: SSL certificate problem: certificate has expired 
