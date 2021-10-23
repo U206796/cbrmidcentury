@@ -67,7 +67,11 @@ html {
 body {
   margin: 0;
 }
-
+.wp-mapbox-gl-js-location-sidebar {
+    width: auto !important;
+    height: auto !important;
+    float: none !important;
+}
 main,
 nav {
   display: block;

@@ -1981,3 +1981,8 @@ body.full-overlay-active {
 		speak: never;
 	}
 }
+.wp-mapbox-gl-js-location-sidebar {
+    width: auto !important;
+    height: auto !important;
+    float: none !important;
+}

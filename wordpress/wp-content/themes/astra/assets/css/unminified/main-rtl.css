@@ -63,7 +63,11 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
-
+.wp-mapbox-gl-js-location-sidebar {
+    width: auto !important;
+    height: auto !important;
+    float: none !important;
+}
 body {
   margin: 0;
 }
